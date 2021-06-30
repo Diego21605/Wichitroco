@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="180" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="180" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel4" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Producto">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true" thickness="2"/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel13" min="-2" pref="178" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="jtxt_id_producto" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jLabel7" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jLabel6" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel8" min="-2" pref="178" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jtxt_c_vendida" alignment="0" min="-2" pref="223" max="-2" attributes="0"/>
+                              <Component id="jtxt_precio_pro" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jtxt_nombre_producto" alignment="0" pref="224" max="32767" attributes="0"/>
+                              <Component id="jlabel_monto_total" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="9" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                          <Component id="jLabel12" min="-2" pref="154" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" pref="182" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel6" pref="30" max="32767" attributes="0"/>
+                      <Component id="jtxt_nombre_producto" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtxt_id_producto" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="jLabel13" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtxt_precio_pro" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jtxt_c_vendida" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButton3" min="-2" pref="36" max="-2" attributes="0"/>
+                  <EmptySpace pref="9" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jLabel12" pref="27" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jlabel_monto_total" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nombre del producto "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Precio del producto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxt_precio_pro">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxt_precio_proActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtxt_precio_proKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cantidad vendida"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxt_c_vendida">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxt_c_vendidaActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtxt_c_vendidaKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Id del producto"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxt_id_producto">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxt_id_productoActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtxt_id_productoKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxt_nombre_producto">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxt_nombre_productoActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtxt_nombre_productoKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel12">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Monto total"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlabel_monto_total">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="MONTO TOTAL"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder>
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true" thickness="2"/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Cliente"/>
+        <Property name="name" type="java.lang.String" value="Cliente" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" pref="158" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="0" min="-2" pref="170" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jtxt_id_cliente" max="32767" attributes="0"/>
+                              <Component id="jtxt_telefono_cliente" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel9" min="-2" pref="159" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="jtxt_nombre_cliente" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel3" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="0" min="-2" pref="158" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jtxt_n_venta" pref="242" max="32767" attributes="0"/>
+                              <Component id="jlabel_fecha" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel9" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="jtxt_nombre_cliente" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtxt_id_cliente" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtxt_telefono_cliente" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jtxt_n_venta" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jLabel4" pref="30" max="32767" attributes="0"/>
+                      <Component id="jlabel_fecha" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Id. del Cliente"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxt_id_cliente">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtxt_id_clienteKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nombre del cliente"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxt_nombre_cliente">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxt_nombre_clienteActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtxt_nombre_clienteKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Telefono del cliente"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxt_telefono_cliente">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtxt_telefono_clienteKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de venta"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jtxt_n_venta">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxt_n_ventaActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fecha"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlabel_fecha">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Vijaya" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="GUARDAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Vijaya" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CANCELAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Pago final">
+              <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder roundedCorners="true" thickness="2"/>
+              </Border>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel10" alignment="0" min="-2" pref="261" max="-2" attributes="0"/>
+                      <Component id="jLabel11" alignment="0" min="-2" pref="229" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jtxt_descuento" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jlabel_monto_final" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jButton4" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jLabel15" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel14" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel11" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jLabel14" min="-2" pref="38" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel15" min="-2" pref="36" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jtxt_descuento" min="-2" pref="31" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="jLabel10" min="-2" pref="77" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton4" min="-2" pref="44" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                  <Component id="jlabel_monto_final" min="-2" pref="34" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jtxt_descuento">
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtxt_descuentoKeyTyped"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel10">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="30" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Monto final "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlabel_monto_final">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel11">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="30" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Descuento"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel14">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="20" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="EL DESCUENTO DEBE SER  "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="22" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CALCULAR EL MONTO FINAL"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel15">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="20" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DIGITADO EN NUMEROS ENTEROS"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel5">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="279" max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="254" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" pref="61" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Vijaya" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="WICHITROCO S.A"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
